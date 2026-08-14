@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base dark theme */
+:root {
+  --bg: #0b0f14;
+  --card: #0f1720;
+  --muted: #9aa4b2;
+  --accent: #6C5CE7;
+}
+html.dark {
+  background-color: var(--bg);
+  color: #e6eef8;
+}
